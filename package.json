@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-task-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal WhatsApp agent that stores tasks, reminds you when they are due, and replies to commands.",
+  "scripts": {
+    "start": "node src/index.js",
+    "say": "node src/cli.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
+  }
+}
